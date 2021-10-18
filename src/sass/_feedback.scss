@@ -1,0 +1,59 @@
+.feedback {
+    min-height:1040px;
+    padding-bottom: 61px;
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0d0d0d;
+        text-transform: uppercase;
+    }
+    &__item{
+        display: flex;
+        margin-top: 100px;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+    }
+    img {
+        width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__all_name{
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0d0d0d;
+        margin-bottom: 10px;
+    }
+    &__all_info{
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #646464;
+        margin-bottom: 19px;
+    }
+    &__all_text {
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0d0d0d;
+    }
+}
